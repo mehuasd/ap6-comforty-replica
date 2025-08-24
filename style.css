@@ -1,0 +1,35 @@
+.ss {}
+
+.ss:last-child {
+
+    /* justify-content:end !important; */
+}
+
+.textq {
+    text-align: right !important;
+}
+
+.anton {
+    font-family: 'Anton';
+    font-size: 70px !important;
+}
+
+/* .dis{
+    /* position: relative;
+    top: 100px; *
+        position: relative !important;
+    top: 238px !important;
+    right: 255px !important;
+
+} */
+
+#home {
+    padding: 200px 0px 50px 0px !important;
+}
+
+@media (max-width:786px) {
+    #home {
+        padding: 120px 0px 50px 0px !important;
+    }
+
+}
