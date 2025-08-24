@@ -35,7 +35,7 @@
                 </form>
             </div>
         </nav>
-        <nav class="navbar navbar-expand-md p-1">
+        <nav class="navbar navbar-expand-md pt-3 px-1">
             <div class="container-fluid">
                 <button class="navbar-toggler text-end" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
@@ -43,7 +43,7 @@
                     <span class="navbar-toggler-icon"></span> All Categories
                 </button>
 
-                <div class="collapse navbar-collapse pe-5" id="navbarNavDropdown">
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="navbar-nav">
                         <li class="nav-item">
                             <a class="nav-link" href="#">Home</a>
@@ -187,6 +187,33 @@
     <section id="product" class="">
         <div class="container">
             <h3 class="fw-bolder text-center my-5">Our Product</h3>
+            <nav class="navbar navbar-expand-lg bg-body-light">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link ps-4" aria-current="page" href="#">All</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link ps-4" aria-current="page" href="#">Newest</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link ps-4" href="#">Trending</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link ps-4" href="#">Best Seller</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link ps-4" href="#">Featured</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
             <div class="row row-cols-2 row-cols-lg-4 row-cols-md-3 g-4">
                 <div class="col">
                     <div class="card h-100">
@@ -289,14 +316,14 @@
     </section>
 
 
-    <section id="" class="">
+    <section id="about" class="">
 
     </section>
 
 
     <section id="pages" class="py-5">
         <div class="container">
-            <h4 class="fw-bolder">Features Product</h4>
+            <h4 class="fw-bolder mt-5">Features Product</h4>
             <div class="owl-carousel owl-theme pt-5">
                 <div class="item">
                     <div class="card h-100">
@@ -387,35 +414,37 @@
         </div>
     </section>
 
-    <footer class="bg-dark text-white overflow-hidden">
+    <footer class="bg-body-tertiary overflow-hidden">
         <div class="container py-5">
             <div class="row row-cols-1 row-cols-md-4 g-5">
                 <div class="col">
-                    <img src="images/logo.png" alt="">
-                    <p class="pt-4">At Stack,customers come first. And their satisfaction is not just our top priority
-                        but also the driving force of us,every single day</p>
-                    <p class="fw-bold">Working Hours</p>
-                    <p class="text-light">Mon - Sat 8:00 - 18:00(Sunday off)</p>
-                    <div class="d-flex">
-                        <img src="images/facebook-app-symbol.png">
-                        <img src="images/twitter.png" class="ps-3">
-                        <img src="images/linkedin.png" class="ps-3">
-                    </div>
+                    <h5 class="mb-4">Chairy</h5>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi sapiente iste facilis
+                        cum, inventore recusandae doloremque animi officia</p>
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-instagram  ps-3"></i>
+                    <i class="fab fa-linkedin-in ps-3"></i>
+                    <i class="fab fa-twitter ps-3"></i>
+                    <i class="fab fa-youtube ps-3"></i>
                 </div>
                 <div class="col">
-                    <h5 class="mb-4">GET IN TOUCH</h5>
-                    <p><img src="images/building.png" alt=""> 28 Green tower,New York City,USA</p>
-                    <p><img src="images/telephone.png" alt=""> +84 846 250 592</p>
-                    <p><img src="images/email.png" alt=""> contact@stuck.com</p>
+                    <h5 class="mb-4">Category</h5>
+                    <ul class="list-unstyled ms-3">
+                        <li class="mb-3">Sofa</li>
+                        <li class="mb-3">Armchair</li>
+                        <li class="mb-3">Wing chair</li>
+                        <li class="mb-3">Desk chair</li>
+                        <li class="mb-3">Wodden chair</li>
+                        <li class="">Park bench</li>
+                    </ul>
                 </div>
                 <div class="col">
-                    <h5 class="mb-4">QUICK LINKS</h5>
-                    <ul class="text-light list-unstyled text-white">
-                        <li class="mb-3"><a href="#home"><span class="me-3">»</span>Home</a></li>
-                        <li class="mb-3"><a href="#about"><span class="me-3">»</span>About</a></li>
-                        <li class="mb-3"><a href="#service"><span class="me-3">»</span>Service</a></li>
-                        <li class="mb-3"><a href="#testimonial"><span class="me-3">»</span>Testimonial</a></li>
-                        <li class="mb-3"><a href="#contact"><span class="me-3">»</span>Contact</a></li>
+                    <h5 class="mb-4">Support</h5>
+                    <ul class="list-unstyled ms-3">
+                        <li class="mb-3">Help & Support</li>
+                        <li class="mb-3">Terms & Condition</li>
+                        <li class="mb-3">Privacy Policy</li>
+                        <li class="mb-3">Help</li>
                     </ul>
                 </div>
                 <div class="col">
@@ -424,18 +453,14 @@
                     <form>
                         <input type="email" class="form-control mb-3" id="exampleFormControlInput1"
                             placeholder="Your Email Address">
-                        <button type="button" class="btn btn-primary rounded-pill mb-5">Subscribe</button>
+                        <button type="button" class="btn btn-info rounded-pill mb-5">Subscribe</button>
                     </form>
                 </div>
             </div>
         </div>
-        <div class="text-center">&copy; 2026 STACK - All Rights Reserved</div>
+        <div class="text-center bg-info">&copy; 2026 Comforty - All Rights Reserved</div>
     </footer>
 
-
-    <section id="" class="">
-
-    </section>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
         integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>

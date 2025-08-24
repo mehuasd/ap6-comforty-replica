@@ -1,10 +1,3 @@
-.ss {}
-
-.ss:last-child {
-
-    /* justify-content:end !important; */
-}
-
 .textq {
     text-align: right !important;
 }
@@ -14,17 +7,12 @@
     font-size: 70px !important;
 }
 
-/* .dis{
-    /* position: relative;
-    top: 100px; *
-        position: relative !important;
-    top: 238px !important;
-    right: 255px !important;
-
-} */
-
 #home {
     padding: 200px 0px 50px 0px !important;
+}
+
+.nav-link:hover {
+    color: rgb(0, 255, 255) !important;
 }
 
 @media (max-width:786px) {
