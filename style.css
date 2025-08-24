@@ -2,12 +2,6 @@
     text-align: right !important;
 }
 
-.dis {
-    position: absolute;
-    top: 0px !important;
-    right: 0px;
-}
-
 .anton {
     font-family: 'Anton';
     font-size: 70px !important;
@@ -21,22 +15,16 @@
     color: rgb(0, 255, 255) !important;
 }
 
+.hh {
+    right: 30px !important;
+}
+
 @media (max-width:786px) {
     #home {
         padding: 120px 0px 50px 0px !important;
     }
 
-    .banner {
-        /* width: 20%; */
-    }
-
     .anton {
         font-size: 40px !important;
-    }
-}
-
-@media (max-width:400px) {
-    .hh {
-        right: 30px !important;
     }
 }
