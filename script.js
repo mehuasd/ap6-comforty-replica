@@ -90,7 +90,7 @@ const translations = {
         shopHeading: "Features Product",
         productHeading: "Our Product",
         nav21: "All",
-        nav22: "Newest", nav23: "Trending", nav24: "Best Seller", nav25: "Featured", chatAI: "Chat with us"
+        nav22: "Newest", nav23: "Trending", nav24: "Best Seller", nav25: "Featured", chatAI: "Chat with us",navV:"Virtual Chairs"
     },
     fr: {
         dir: "ltr",
@@ -114,7 +114,7 @@ const translations = {
         shopHeading: "Caractéristiques du produit",
         productHeading: "Notre produit",
         nav21: "Tout",
-        nav22: "Le plus récent", nav23: "Tendance", nav24: "Meilleur vendeur", nav25: "En vedette", chatAI: "Discutez avec nous"
+        nav22: "Le plus récent", nav23: "Tendance", nav24: "Meilleur vendeur", nav25: "En vedette", chatAI: "Discutez avec nous",navV:"Chaises virtuelles"
     },
     es: {
         dir: "ltr",
@@ -138,7 +138,7 @@ const translations = {
         shopHeading: "Características del producto",
         productHeading: "Nuestro producto",
         nav21: "Toda",
-        nav22: "El más nuevo", nav23: "Tendencia", nav24: "Mejor vendedor", nav25: "Presentado", chatAI: "Chatea con nosotros"
+        nav22: "El más nuevo", nav23: "Tendencia", nav24: "Mejor vendedor", nav25: "Presentado", chatAI: "Chatea con nosotros",navV:"Sillas virtuales"
     }
 };
 
